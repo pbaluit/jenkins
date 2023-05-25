@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('ContiniousDownloads') 
     {
-      git 'https://github.com/intelliqittrainings/maven.git'
+       git 'https://github.com/pbaluit/jenkins.git
     }
     
     stage('ContiniousBuild')
